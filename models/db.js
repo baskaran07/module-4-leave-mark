@@ -7,7 +7,6 @@ var SALT_WORK_FACTOR = 10;
 //var dbURI = 'mongodb://localhost:27017/leavethemark';
 var dbURI = 'mongodb://baskaran07:Welcome1@ds133961.mlab.com:33961/leavethemark';
 
-mongodb://<dbuser>:<dbpassword>@ds133961.mlab.com:33961/leavethemark
 
 mongoose.connect(dbURI, {server:{auto_reconnect:true}});
 
